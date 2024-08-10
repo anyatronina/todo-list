@@ -1,0 +1,42 @@
+body {
+  background-color: #d6cccc;
+}
+
+.btn-task {
+  padding: 5px 5px;
+  position: absolute;
+  top: 20px;
+}
+
+.btn-task__delete {
+  right: 25px;
+  margin-right: 10px;
+}
+
+.btn-task__favorites {
+  right: 10px;
+}
+
+.checkbox-task {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+
+.card-task {
+  position: relative;
+  margin-bottom: 15px;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
